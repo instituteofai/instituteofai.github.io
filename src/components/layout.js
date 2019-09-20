@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div style={{ minWidth: '330px' }}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
@@ -35,13 +35,12 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          {/* © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a> */}
+        <footer style={{ marginTop: '48px' }}>
+          <small>© Copyright {new Date().getFullYear()}, Institute of AI. All rights reserved.</small>
+          <small> | <a href="mailto:contact@instituteofai.com">Contact us</a></small>
         </footer>
       </div>
-    </>
+    </div>
   )
 }
 
