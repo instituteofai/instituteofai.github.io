@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="About Institute of AI" />
+    <SEO title="About" />
     <h1>About</h1>
     <p>
       The institute of AI was created to provide high quality and affordable

@@ -85,10 +85,11 @@ const IndexPage = () => (
         return (
           <div
             style={{
-              padding: `16px`,
+              padding: `48px`,
               marginBottom: `16px`,
-              border: `1px solid black`,
+              // border: `1px solid black`,
               borderRadius: `5px`,
+              background: `#FAFAFA`
             }}
             key={e.id}
           >
