@@ -1,9 +1,24 @@
 import React from 'react';
-// import { Link } from "gatsby"
+import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 // import Image from "../components/image"
 import SEO from '../components/seo';
+
+const courseContentStyles = {
+  height: '200px',
+  padding: '32px',
+  backgroundColor: 'black',
+  color: 'white',
+  margin: '8px',
+  fontSize: '32px',
+  borderRadius: '5px',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  flex: '1 1 0',
+  textDecoration: 'none'
+};
 
 const courseContent = {
   modules: [
@@ -77,11 +92,24 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link> */}
-    <hr />
 
-    <h1>Course modules</h1>
-
-    <div>
+    {/* <a name='admission'></a> */}
+    <div style={{
+      display: 'flex',
+      margin: '64px 0'
+    }}>
+      <div style={{
+        fontSize: '18px',
+        width: '40%',
+        minWidth: '180px',
+        marginTop: '8px'
+      }}><span>Our Mission</span></div>
+      <div style={{
+        fontSize: '30px'
+      }}><span>To provide high quality and affordable training to everyone in the field of Artificial Intelligence.</span></div>
+    </div>
+    <h1>Courses</h1>
+    {/* <div>
       {courseContent.modules.map(e => {
         return (
           <div
@@ -99,6 +127,14 @@ const IndexPage = () => (
           </div>
         );
       })}
+    </div> */}
+    <div style={{
+      display: 'flex',
+      justifyContent: 'space-between'
+    }}>
+      <Link style={courseContentStyles} to="/machine-learning"><div>Machine Learning</div></Link>
+      <div style={courseContentStyles}>Deep Learning for Vision</div>
+      <div style={courseContentStyles}>Natural Language Processing</div>
     </div>
   </Layout>
 );

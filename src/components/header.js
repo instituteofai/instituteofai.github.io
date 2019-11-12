@@ -23,6 +23,8 @@ class Header extends React.Component {
         style={{
           background: `rgb(255, 255, 255)`,
           marginBottom: `1.45rem`,
+          position: 'sticky',
+          top: '0'
         }}
       >
         <div
@@ -76,6 +78,9 @@ class Header extends React.Component {
           <Link to="/blog" className="w3-bar-item w3-button w3-round w3-hide-small">
             Blog
           </Link>
+          {/* <Link to="#admission" className="w3-bar-item w3-button w3-round w3-hide-small">
+            Admission
+          </Link> */}
           <Link
             to="/about"
             className="w3-bar-item w3-button w3-round w3-hide-small"
@@ -105,6 +110,7 @@ class Header extends React.Component {
             About
           </Link>
         </div>
+        <hr />
       </header>
     );
   }
