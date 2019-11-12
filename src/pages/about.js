@@ -4,7 +4,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-const SecondPage = () => (
+const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <h1>About</h1>
@@ -16,4 +16,4 @@ const SecondPage = () => (
   </Layout>
 );
 
-export default SecondPage;
+export default AboutPage;

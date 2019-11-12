@@ -73,6 +73,9 @@ class Header extends React.Component {
           <Link to="/" className="w3-bar-item w3-button w3-round w3-hide-small">
             Home
           </Link>
+          <Link to="/blog" className="w3-bar-item w3-button w3-round w3-hide-small">
+            Blog
+          </Link>
           <Link
             to="/about"
             className="w3-bar-item w3-button w3-round w3-hide-small"
@@ -94,6 +97,9 @@ class Header extends React.Component {
         >
           <Link to="/" className="w3-bar-item w3-button">
             Home
+          </Link>
+          <Link to="/blog" className="w3-bar-item w3-button">
+            Blog
           </Link>
           <Link to="/about" className="w3-bar-item w3-button">
             About
