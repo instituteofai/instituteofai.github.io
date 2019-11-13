@@ -5,12 +5,12 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import React from 'react';
+import PropTypes from 'prop-types';
+import { useStaticQuery, graphql } from 'gatsby';
 
-import Header from "./header"
-import "./layout.css"
+import Header from './header';
+import './layout.css';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <div style={{ minWidth: '330px' }}>
@@ -35,17 +35,31 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer style={{ marginTop: '48px' }}>
-          <small>© Copyright {new Date().getFullYear()}, Institute of AI. All rights reserved.</small>
-          <small> | <a href="mailto:contact@instituteofai.com">Contact us</a></small>
+      </div>
+      <div
+        style={{
+          backgroundColor: '#f5f5f5',
+          padding: `16px 1.0875rem 1.45rem`,
+          color: '#777'
+        }}
+      >
+        <footer style={{ marginTop: '48px', margin: `0 auto`, maxWidth: 960 }}>
+          <small>
+            © Copyright {new Date().getFullYear()}, Institute of AI. All rights
+            reserved.
+          </small>
+          <small>
+            {' '}
+            | <a href="mailto:contact@instituteofai.com">Contact us</a>
+          </small>
         </footer>
       </div>
     </div>
-  )
-}
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;
