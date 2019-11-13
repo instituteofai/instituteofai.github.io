@@ -17,7 +17,8 @@ const courseContentStyles = {
   alignItems: 'center',
   justifyContent: 'center',
   flex: '1 1 0',
-  textDecoration: 'none'
+  textDecoration: 'none',
+  boxShadow: '2px 2px 5px 2px rgba(0, 0, 0, 0.3)'
 };
 
 const courseContent = {
@@ -135,6 +136,18 @@ const IndexPage = () => (
       <Link style={courseContentStyles} to="/machine-learning"><div>Machine Learning</div></Link>
       <div style={courseContentStyles}>Deep Learning for Vision</div>
       <div style={courseContentStyles}>Natural Language Processing</div>
+    </div>
+    <div style={{
+      margin: '48px 0',
+      fontSize: '20px'
+    }}>
+      <p style={{marginBottom: '36px'}}>
+        All courses are focused on helping you to get your hands dirty as soon as possible instead of discussing the theory in detail. 
+        That being said, understanding the theory is important. We just do it after seeing how things actually work.
+      </p>
+      <p>
+        After succesfully completing all the courses, you will work on a project where you apply everything you have learned to collect data, train a model, deploy it on the cloud.
+      </p>
     </div>
   </Layout>
 );
