@@ -1,0 +1,68 @@
+{
+  "units": [
+    {
+      "title": "Introduction to Python",
+      "items": [
+        "Install Python and Jupyter",
+        "Types, Expressions and Variables in Python",
+        "Data Structures",
+        "Conditions and Branching",
+        "Objects and Classes"
+      ]
+    },
+    {
+      "title": "Working with Data in Python",
+      "items": [
+        "Setting up Anaconda",
+        "Using Libraries - NumPy, pandas",
+        "Reading and Writing Files"
+      ]
+    },
+    {
+      "title": "Basic Machine Learning Concepts",
+      "items": [
+        "What is Machine Learning?",
+        "Important Terms",
+        "Types of Machine Learning",
+        "When Does Machine Learning Make Sense?",
+        "Data Pre-processing",
+        "Train/Test Split",
+        "Overfitting and Underfitting"
+      ]
+    },
+    {
+      "title": "Supervised Learning",
+      "items": [
+        "Regression - Linear, Multiple Linear, Polynomial, Support Vectors, Decision Trees, Random Forests",
+        "Classification - Naive Bayes, Decision Trees, Random Forests, Logistic Regression, Support Vectors, K-NN"
+      ]
+    },
+    {
+      "title": "Unsupervised Learning",
+      "items": [
+        "K-Means Clustering",
+        "Hierarchical Clustering"
+      ]
+    },
+    {
+      "title": "Introduction to Probability & Statistics",
+      "items": [
+        "Describing Data",
+        "Distributions",
+        "Hypothesis and Inference"
+      ]
+    },
+    {
+      "title": "Advanced Topics in Machine Learning",
+      "items": [
+        "Feature Engineering",
+        "Regularization",
+        "Bias-Variance Trade-off",
+        "Learning Algorithms - Gradient Descent",
+        "Boosting/Bootstrapping/Bagging - XGBoost, AdaBoost",
+        "Introduction to Neural Networks",
+        "Backpropagation"
+      ]
+    }
+  ]
+}
