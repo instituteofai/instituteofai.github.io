@@ -15,12 +15,16 @@ export default class CourseUnit extends React.Component {
         <div className="">
           <span className="cu-num">{this.props.idx + 1}</span>
           <span className="cu-title">{this.props.unit.title}</span>
-          <button
-            className="cu-link"
-            onClick={() => {this.setState({ expanded: !this.state.expanded })}}
-          >
-            {this.state.expanded ? 'Show Less' : 'Show More'}
-          </button>
+          {this.props.unit.items && this.props.unit.items.length > 0 && (
+            <button
+              className="cu-link"
+              onClick={() => {
+                this.setState({ expanded: !this.state.expanded });
+              }}
+            >
+              {this.state.expanded ? 'Show Less' : 'Show More'}
+            </button>
+          )}
         </div>
         {this.state.expanded && (
           <div className="cu-body">
