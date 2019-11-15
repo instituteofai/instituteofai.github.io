@@ -1,0 +1,20 @@
+{
+  "units": [
+    {
+      "title": "Introduction to Deep Learning",
+      "items": [
+        "Neural network architecture",
+        "Convolutional Neural Networks (CNN)",
+        "Recurrent Neural Networks (RNN)"
+      ]
+    }, {
+      "title": "Deep Learning for Vision",
+      "items": [
+        "Data augmentation",
+        "Image classification",
+        "Object detection in images",
+        "Object detection in videos"
+      ]
+    }
+  ]
+}

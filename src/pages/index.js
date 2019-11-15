@@ -134,8 +134,8 @@ const IndexPage = () => (
       justifyContent: 'space-between'
     }}>
       <Link style={courseContentStyles} to="/machine-learning"><div>Machine Learning</div></Link>
-      <div style={courseContentStyles}>Deep Learning for Vision</div>
-      <div style={courseContentStyles}>Natural Language Processing</div>
+      <Link style={courseContentStyles} to="/deep-learning-vision"><div>Deep Learning for Vision</div></Link>
+      <Link style={courseContentStyles} to="/natural-language-processing"><div>Natural Language Processing</div></Link>
     </div>
     <div style={{
       margin: '48px 0',
