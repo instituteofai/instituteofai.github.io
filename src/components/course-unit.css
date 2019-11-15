@@ -1,0 +1,33 @@
+/* Course Unit */
+.cu-unit {
+    /* border: 1px dotted gray; */
+    padding: 24px;
+}
+
+/* Course Unit number */
+.cu-num {
+    font-size: 36px;
+    margin-right: 24px;
+}
+
+/* Course Unit title */
+.cu-title {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+/* Course Unit body */
+.cu-body {
+    margin-left: 48px;
+}
+
+.cu-body-item {
+    margin: 12px 0;
+}
+
+.cu-link {
+    font-size: 12px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}

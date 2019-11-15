@@ -39,18 +39,11 @@
     },
     {
       "title": "Unsupervised Learning",
-      "items": [
-        "K-Means Clustering",
-        "Hierarchical Clustering"
-      ]
+      "items": ["K-Means Clustering", "Hierarchical Clustering"]
     },
     {
       "title": "Introduction to Probability & Statistics",
-      "items": [
-        "Describing Data",
-        "Distributions",
-        "Hypothesis and Inference"
-      ]
+      "items": ["Describing Data", "Distributions", "Hypothesis and Inference"]
     },
     {
       "title": "Advanced Topics in Machine Learning",
