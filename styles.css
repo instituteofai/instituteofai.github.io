@@ -2,30 +2,3 @@
 .cu-cont {
     margin: 36px 0;
 }
-
-/* Course Unit */
-.cu-unit {
-    /* border: 1px dotted gray; */
-    padding: 24px;
-}
-
-/* Course Unit number */
-.cu-num {
-    font-size: 36px;
-    margin-right: 24px;
-}
-
-/* Course Unit title */
-.cu-title {
-    font-size: 24px;
-}
-
-/* Course Unit header */
-/* .cu-hdr {
-
-} */
-
-/* Course Unit body */
-.cu-body {
-    margin-left: 48px;
-}
