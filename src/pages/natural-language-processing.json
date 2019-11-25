@@ -2,10 +2,29 @@
   "units": [
     {
       "title": "Introduction to Natural Language Processing",
-      "items": []
-    }, {
+      "items": [
+        "Introduction & Outline of the course",
+        "Tensorflow or Theano",
+        "Preprocessed Wikipedia Data"
+      ]
+    },
+    {
+      "title": "Working with Word Vectors",
+      "items":[
+        "What are vectors?",
+        "What is a word analogy?",
+        "Trying to find and assess word vectors using TF-IDF and t-SNE",
+        "Pretrained word vectors from GloVe",
+        "Pretrained word vectors from word2vec",
+        "Text Classification with word vectors",
+        "Text Classification in Code",
+        "Using pretrained vectors later in the course"
+      ]
+    },
+    {
       "title": "Deep Learning for Text",
       "items": [
+        "Using neural networks to solve NLP Problems",
         "Sentiment Analysis"
       ]
     }
