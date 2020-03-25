@@ -40,7 +40,8 @@ const Layout = ({ children }) => {
         style={{
           backgroundColor: '#f5f5f5',
           padding: `16px 1.0875rem 1.45rem`,
-          color: '#777'
+          color: '#777',
+          position: 'absolute', width: `100%`, bottom: 0
         }}
       >
         <footer style={{ marginTop: '48px', margin: `0 auto`, maxWidth: 960 }}>
