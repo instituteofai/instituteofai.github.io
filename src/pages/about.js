@@ -12,7 +12,9 @@ const AboutPage = () => (
       The <strong>Institute of AI</strong> was created to provide high quality and affordable
       training to engineers in the field of Artificial Intelligence.
     </p>
-    <p>You can get in touch with us at: contact@instituteofai.com</p>
+    <br />
+    <p>Want to know more details about the program. Fill the <a href='https://forms.gle/RqL5oxcHtARV5Rgk6' target='_blank'><b>Form</b></a> and our team will get in touch with you shortly!</p>
+    <p>You can also email us at: contact@instituteofai.com</p>
   </Layout>
 );
 

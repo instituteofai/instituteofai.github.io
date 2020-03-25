@@ -1,0 +1,31 @@
+/* Project Unit */
+.pu-unit {
+  height: 200px;
+  padding: 25px;
+  background-color: black;
+  color: white;
+  margin: 8px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+};
+
+/* Project Unit title */
+.pu-proj-name {
+  font-size: large;
+  margin-left: 10px;
+}
+
+/* Project Unit description */
+.pu-desc {
+  font-size: small;
+}
+
+/* Project Unit Images */
+.pu-image {
+  width: 100px;
+}

@@ -75,16 +75,13 @@ class Header extends React.Component {
           <Link to="/" className="w3-bar-item w3-button w3-round w3-hide-small">
             Home
           </Link>
+          <Link to="/labs" className="w3-bar-item w3-button w3-round w3-hide-small">
+            IAI Labs
+          </Link>
           <Link to="/blog" className="w3-bar-item w3-button w3-round w3-hide-small">
             Blog
           </Link>
-          {/* <Link to="#admission" className="w3-bar-item w3-button w3-round w3-hide-small">
-            Admission
-          </Link> */}
-          <Link
-            to="/about"
-            className="w3-bar-item w3-button w3-round w3-hide-small"
-          >
+          <Link to="/about" className="w3-bar-item w3-button w3-round w3-hide-small">
             About
           </Link>
           <button
@@ -102,6 +99,9 @@ class Header extends React.Component {
         >
           <Link to="/" className="w3-bar-item w3-button">
             Home
+          </Link>
+          <Link to="/labs" className="w3-bar-item w3-button">
+            IAI Labs
           </Link>
           <Link to="/blog" className="w3-bar-item w3-button">
             Blog
