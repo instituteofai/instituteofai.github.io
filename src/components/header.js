@@ -76,7 +76,7 @@ class Header extends React.Component {
             Home
           </Link>
           <Link to="/labs" className="w3-bar-item w3-button w3-round w3-hide-small">
-            IAI Labs
+            Labs
           </Link>
           <Link to="/blog" className="w3-bar-item w3-button w3-round w3-hide-small">
             Blog
