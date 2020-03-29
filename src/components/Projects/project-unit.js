@@ -13,7 +13,7 @@ export default class ProjectUnit extends React.Component {
 
   render() {
     return (
-      <Link className="pu-unit" to="#">
+      <a className="pu-unit" href={this.props.project.link}>
         <div style={{
             display: 'flex',
             flexDirection: 'column'
@@ -33,7 +33,7 @@ export default class ProjectUnit extends React.Component {
             {shortenText(this.props.project.description)}
           </div>
         </div>
-      </Link>
+      </a>
     )
   }
 }

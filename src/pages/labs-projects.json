@@ -4,6 +4,7 @@
       "id": "01",
       "title": "Image Classification",
       "description": "Image classification is the task of classifying an image into a class category. It is the most well-known computer vision task. Famous benchmarks include the MNIST dataset, for handwritten digit classification, and ImageNet, a large-scale image dataset for object classification.",
+      "link": "http://labs.instituteofai.com/classifier",
       "imageUrls": [
         "https://paperswithcode.com/media/thumbnails/task/task-0000000951-b16a7f96_OddAAO8.jpg",
         "https://www.learnopencv.com/wp-content/uploads/2019/05/animals-classifier-1024x618.jpg",
@@ -14,6 +15,7 @@
       "id": "02",
       "title": "Object Detection",
       "description": "Object detection is the task of detecting instances of objects of a certain class within an image. The state-of-the-art methods can be categorized into two main types: one-stage methods and two stage-methods. One-stage methods prioritize inference speed, and example models include YOLO, SSD and RetinaNet. Two-stage methods prioritize detection accuracy, and example models include Faster R-CNN, Mask R-CNN and Cascade R-CNN.",
+      "link": "#",
       "imageUrls": [
         "https://paperswithcode.com/media/thumbnails/task/task-0000000004-57dd87c7_D7W1Zlx.jpg",
         "https://miro.medium.com/max/503/1*xWntyXM0W-SuDMgWMM6mCg.png"
@@ -23,6 +25,7 @@
       "id": "03",
       "title": "Object detection in Remote sensing",
       "description": "Combining machine learning algorithms and computer vision techniques with the latest cloud technologies for semantic segmentation, object detection and classification on multi-spectral multi-resolution satellite images.",
+      "link": "#",
       "imageUrls":[
         "https://images.squarespace-cdn.com/content/v1/5cc33557d74562c8c6f29da7/1560316453174-22ZFQUYKLYXVKAGSREOV/ke17ZwdGBToddI8pDm48kGDpvalPb1SqHoCn1hwN0Y57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmx-YtV7KdJhhcFMxgH7DNwVWsr4BytTuzU0mdZNjZkC7ehjA8nxqmKGxR1QtMJl5J/1_S_AHTy_VSPMgSOnMHOg_YQ.png?format=500w",
         "https://images.squarespace-cdn.com/content/v1/5cc33557d74562c8c6f29da7/1560315190133-O6KZ742KSAOH5RZK39L0/ke17ZwdGBToddI8pDm48kAn1OFAnu5acltjYdn5z5QFZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIQruZbyjNdo47-u1CCh2romoMTG5tHtPklEaqcLIo09s/image-asset.png?format=750w"
