@@ -41,10 +41,12 @@ const Layout = ({ children }) => {
           backgroundColor: '#f5f5f5',
           padding: `16px 1.0875rem 1.45rem`,
           color: '#777',
-          position: 'absolute', width: `100%`, bottom: 0
+          position: 'fixed', width: `100%`, bottom: 0,
+          
         }}
       >
-        <footer style={{ marginTop: '48px', margin: `0 auto`, maxWidth: 960 }}>
+        <footer style={{ marginTop: '48px',marginLeft:'350px', margin:`0 auto`,maxWidth: '960px'}}>
+        
           <small>
             © Copyright {new Date().getFullYear()}, Institute of AI. All rights
             reserved.
