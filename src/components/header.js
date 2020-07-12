@@ -38,21 +38,6 @@ class Header extends React.Component {
             justifyContent: 'center',
           }}
         >
-          {/* <a href="#" class="w3-bar-item w3-button">Home</a>
-      <a href="#" class="w3-bar-item w3-button w3-hide-small">Link 1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hide-small">Link 2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hide-small">Link 3</a> */}
-
-          {/* <div
-        className="header-nav nav-normal"
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `1.45rem 1.0875rem`,
-          display: 'flex',
-          alignItems: 'center',
-        }}
-      > */}
           <div
             className="w3-hide-medium w3-hide-large"
             style={{ margin: 'auto' }}
@@ -78,9 +63,9 @@ class Header extends React.Component {
           <Link to="/labs" className="w3-bar-item w3-button w3-round w3-hide-small">
             Labs
           </Link>
-          <Link to="/blog" className="w3-bar-item w3-button w3-round w3-hide-small">
+          <a href="http://blog.instituteofai.com/" target="_blank" className="w3-bar-item w3-button w3-round w3-hide-small">
             Blog
-          </Link>
+          </a>
           <Link to="/about" className="w3-bar-item w3-button w3-round w3-hide-small">
             About
           </Link>
@@ -103,9 +88,9 @@ class Header extends React.Component {
           <Link to="/labs" className="w3-bar-item w3-button">
             IAI Labs
           </Link>
-          <Link to="/blog" className="w3-bar-item w3-button">
+          <a href="http://blog.instituteofai.com/" target="_blank" className="w3-bar-item w3-button">
             Blog
-          </Link>
+          </a>
           <Link to="/about" className="w3-bar-item w3-button">
             About
           </Link>
