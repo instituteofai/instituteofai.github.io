@@ -7,27 +7,30 @@
         "Types, Expressions and Variables in Python",
         "Data Structures",
         "Conditions and Branching",
-        "Objects and Classes"
+        "Objects and Classes",
       ]
     },
     {
       "title": "Working with Data in Python",
       "items": [
         "Setting up Anaconda",
-        "Using Libraries - NumPy, pandas",
-        "Reading and Writing Files"
+        "Reading and Writing Files",
+        "Using Libraries - NumPy, Pandas",
+        "Data Visualization - Matplotlib, Seaborn",
       ]
     },
     {
       "title": "Basic Machine Learning Concepts",
       "items": [
-        "What is Machine Learning?",
-        "Important Terms",
+        "Introduction to Machine Learning",
         "Types of Machine Learning",
         "When Does Machine Learning Make Sense?",
+        "Exploratory Data Analysis & Feature Engineering",
         "Data Pre-processing",
         "Train/Test Split",
-        "Overfitting and Underfitting"
+        "Bias-Variance Trade-off",
+        "Overfitting and Underfitting",
+        "Hyperparameter Tuning",
       ]
     },
     {
@@ -39,22 +42,22 @@
     },
     {
       "title": "Unsupervised Learning",
-      "items": ["K-Means Clustering", "Hierarchical Clustering"]
+      "items": ["K-Means Clustering", "DBSCAN", "Anomaly Detection", "Agglomerative Clustering", "Hierarchical Clustering", "Dimensionality Reduction - PCA", "Gaussian Mixture Model"]
     },
     {
-      "title": "Introduction to Probability & Statistics",
-      "items": ["Describing Data", "Distributions", "Hypothesis and Inference"]
-    },
-    {
-      "title": "Advanced Topics in Machine Learning",
+      "title": "Deploy a Model to Production",
       "items": [
-        "Feature Engineering",
-        "Regularization",
-        "Bias-Variance Trade-off",
-        "Learning Algorithms - Gradient Descent",
-        "Boosting/Bootstrapping/Bagging - XGBoost, AdaBoost",
-        "Introduction to Neural Networks",
-        "Backpropagation"
+        "Saving Model Parameters",
+        "Building REST API Services",
+        "Dockerize the application",
+        "Deploy the Model to the Cloud",
+      ]
+    },
+    {
+      "title": "Ensemble Learning",
+      "items": [
+        "Ensemble Learning Techniques - Voting, Average, Weighted Average",
+        "Boosting/Bagging - XGBoost, AdaBoost, Gradient Descent",
       ]
     }
   ]
