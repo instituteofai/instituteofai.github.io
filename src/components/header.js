@@ -2,6 +2,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import iaiIcon from '../images/iai_hires.png';
+import CookieConsent from "react-cookie-consent";
 
 class Header extends React.Component {
   constructor(props) {
