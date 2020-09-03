@@ -7,7 +7,7 @@
         "Types, Expressions and Variables in Python",
         "Data Structures",
         "Conditions and Branching",
-        "Objects and Classes",
+        "Objects and Classes"
       ]
     },
     {
@@ -16,7 +16,7 @@
         "Setting up Anaconda",
         "Reading and Writing Files",
         "Using Libraries - NumPy, Pandas",
-        "Data Visualization - Matplotlib, Seaborn",
+        "Data Visualization - Matplotlib, Seaborn"
       ]
     },
     {
@@ -30,7 +30,7 @@
         "Train/Test Split",
         "Bias-Variance Trade-off",
         "Overfitting and Underfitting",
-        "Hyperparameter Tuning",
+        "Hyperparameter Tuning"
       ]
     },
     {
@@ -50,14 +50,14 @@
         "Saving Model Parameters",
         "Building REST API Services",
         "Dockerize the application",
-        "Deploy the Model to the Cloud",
+        "Deploy the Model to the Cloud"
       ]
     },
     {
       "title": "Ensemble Learning",
       "items": [
         "Ensemble Learning Techniques - Voting, Average, Weighted Average",
-        "Boosting/Bagging - XGBoost, AdaBoost, Gradient Descent",
+        "Boosting/Bagging - XGBoost, AdaBoost, Gradient Descent"
       ]
     }
   ]
