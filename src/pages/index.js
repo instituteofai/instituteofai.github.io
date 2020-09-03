@@ -133,6 +133,7 @@ const IndexPage = () => (
       display: 'flex',
       justifyContent: 'space-between'
     }}>
+      <Link style={courseContentStyles} to="/machine-learning-crash-course"><div>ML Crash Course</div></Link>
       <Link style={courseContentStyles} to="/machine-learning"><div>Machine Learning</div></Link>
       <Link style={courseContentStyles} to="/deep-learning-vision"><div>Deep Learning for Vision</div></Link>
       <Link style={courseContentStyles} to="/natural-language-processing"><div>Natural Language Processing</div></Link>

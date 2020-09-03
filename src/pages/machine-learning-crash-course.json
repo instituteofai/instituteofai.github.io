@@ -1,0 +1,22 @@
+{
+  "units": [
+    {
+      "title": "Supervised Learning",
+      "items": [
+        "Regression - Linear, Multiple Linear, Polynomial, Support Vectors, Decision Trees, Random Forests",
+        "Classification - Naive Bayes, Decision Trees, Random Forests, Logistic Regression, Support Vectors, K-NN"
+      ]
+    },
+    {
+      "title": "Unsupervised Learning",
+      "items": ["K-Means Clustering", "DBSCAN"]
+    },
+    {
+      "title": "Ensemble Learning",
+      "items": [
+        "Ensemble Learning Techniques - Voting, Average, Weighted Average",
+        "Boosting/Bagging - XGBoost, AdaBoost, Gradient Descent"
+      ]
+    }
+  ]
+}
