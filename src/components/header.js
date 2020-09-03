@@ -63,7 +63,7 @@ class Header extends React.Component {
           <Link to="/labs" className="w3-bar-item w3-button w3-round w3-hide-small">
             Labs
           </Link>
-          <a href="http://blog.instituteofai.com/" target="_blank" className="w3-bar-item w3-button w3-round w3-hide-small">
+          <a href="https://blog.instituteofai.com/" target="_blank" className="w3-bar-item w3-button w3-round w3-hide-small">
             Blog
           </a>
           <Link to="/about" className="w3-bar-item w3-button w3-round w3-hide-small">
@@ -88,7 +88,7 @@ class Header extends React.Component {
           <Link to="/labs" className="w3-bar-item w3-button">
             IAI Labs
           </Link>
-          <a href="http://blog.instituteofai.com/" target="_blank" className="w3-bar-item w3-button">
+          <a href="https://blog.instituteofai.com/" target="_blank" className="w3-bar-item w3-button">
             Blog
           </a>
           <Link to="/about" className="w3-bar-item w3-button">
