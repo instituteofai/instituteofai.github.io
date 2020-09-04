@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import iaiIcon from '../images/iai_hires.png';
-import CookieConsent from "react-cookie-consent";
+import gitHubIcon from '../images/GitHub-Mark-32px.png';
 
 class Header extends React.Component {
   constructor(props) {
@@ -64,12 +64,21 @@ class Header extends React.Component {
           <Link to="/labs" className="w3-bar-item w3-button w3-round w3-hide-small">
             Labs
           </Link>
-          <a href="http://blog.instituteofai.com/" target="_blank" className="w3-bar-item w3-button w3-round w3-hide-small">
+          <a href="https://blog.instituteofai.com/" target="_blank" className="w3-bar-item w3-button w3-round w3-hide-small">
             Blog
           </a>
           <Link to="/about" className="w3-bar-item w3-button w3-round w3-hide-small">
             About
           </Link>
+          <a href="https://github.com/instituteofai" target="_blank">
+            <img
+              style={{
+                margin: 'auto'
+              }}
+              src={gitHubIcon}
+              alt="ML101-GitHub Link"
+            />
+          </a>
           <button
             className="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
             onClick={e => this.toggleMenu(e)}
@@ -89,12 +98,21 @@ class Header extends React.Component {
           <Link to="/labs" className="w3-bar-item w3-button">
             IAI Labs
           </Link>
-          <a href="http://blog.instituteofai.com/" target="_blank" className="w3-bar-item w3-button">
+          <a href="https://blog.instituteofai.com/" target="_blank" className="w3-bar-item w3-button">
             Blog
           </a>
           <Link to="/about" className="w3-bar-item w3-button">
             About
           </Link>
+          <a href="https://github.com/instituteofai/ML-101" target="_blank">
+            <img
+              style={{
+                margin: 'auto'
+              }}
+              src={gitHubIcon}
+              alt="ML101-GitHub Link"
+            />
+          </a>
         </div>
         <hr />
       </header>

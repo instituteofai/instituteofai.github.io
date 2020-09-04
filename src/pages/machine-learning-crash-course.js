@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import mlJson from './machine-learning.json';
+import mlJson from './machine-learning-crash-course.json';
 import CourseUnit from '../components/course-unit';
 import gitHubIcon from '../images/GitHub-Mark-32px.png';
 
@@ -13,8 +13,8 @@ const BlogPage = () => (
                 display: 'flex'
               }}
         >
-            <h1>Machine Learning</h1>&nbsp;
-            <a href="https://github.com/instituteofai/ML-101" target="_blank">
+            <h1>Machine Learning Crash Course</h1>&nbsp;
+            <a href="https://github.com/instituteofai/machine-learning-crash-course" target="_blank">
                 <img
                 style={{
                     margin: 'auto'
@@ -24,7 +24,7 @@ const BlogPage = () => (
                 />
             </a>
         </div>
-        <div>Get an introduction to Machine Learning, with a strong focus on practically applying what you learn.</div>
+        <div>Get a quick overview of the important topics in Machine Learning, with a strong focus on practically applying what you learn.</div>
         <div className="cu-cont">
             {mlJson.units.map((unit, idx) => {
                 return <CourseUnit key={idx} idx={idx} unit={unit} />
