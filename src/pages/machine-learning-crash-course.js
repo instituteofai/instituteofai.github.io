@@ -14,7 +14,7 @@ const BlogPage = () => (
               }}
         >
             <h1>Machine Learning Crash Course</h1>&nbsp;
-            <a href="https://github.com/instituteofai/machine-learning-crash-course" target="_blank">
+            {/* <a href="https://github.com/instituteofai/machine-learning-crash-course" target="_blank">
                 <img
                 style={{
                     margin: 'auto'
@@ -22,7 +22,7 @@ const BlogPage = () => (
                 src={gitHubIcon}
                 alt="ML101-GitHub Link"
                 />
-            </a>
+            </a> */}
         </div>
         <div>Get a quick overview of the important topics in Machine Learning, with a strong focus on practically applying what you learn.</div>
         <div className="cu-cont">

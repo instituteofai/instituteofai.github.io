@@ -70,7 +70,7 @@ class Header extends React.Component {
           <Link to="/about" className="w3-bar-item w3-button w3-round w3-hide-small">
             About
           </Link>
-          <a href="https://github.com/instituteofai" target="_blank">
+          {/* <a href="https://github.com/instituteofai" target="_blank">
             <img
               style={{
                 margin: 'auto'
@@ -78,7 +78,7 @@ class Header extends React.Component {
               src={gitHubIcon}
               alt="ML101-GitHub Link"
             />
-          </a>
+          </a> */}
           <button
             className="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
             onClick={e => this.toggleMenu(e)}
@@ -104,7 +104,7 @@ class Header extends React.Component {
           <Link to="/about" className="w3-bar-item w3-button">
             About
           </Link>
-          <a href="https://github.com/instituteofai/ML-101" target="_blank">
+          {/* <a href="https://github.com/instituteofai/ML-101" target="_blank">
             <img
               style={{
                 margin: 'auto'
@@ -112,7 +112,7 @@ class Header extends React.Component {
               src={gitHubIcon}
               alt="ML101-GitHub Link"
             />
-          </a>
+          </a> */}
         </div>
         <hr />
       </header>
